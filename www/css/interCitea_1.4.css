@@ -1,0 +1,177 @@
+@font-face
+{
+	font-family:Garamond;
+	src:local("Garamond"), url("/Fonts/Garamond.woff") format('woff');
+}
+
+@font-face
+{
+	font-family:Garamond;
+	src:local("Garamond"), url("/Fonts/Garamond-Bold.woff") format('woff');
+	font-weight:bold;
+}
+
+@font-face
+{
+	font-family:Gill sans MT;
+	src:local("Gill sans MT"), url("/Fonts/GillSansMT.woff") format('woff');
+}
+
+@font-face
+{
+	font-family:Gill sans MT;
+	src:local("Gill sans MT"), url("/Fonts/GillSansMT-Bold.woff") format('woff');
+	font-weight:bold;
+}
+
+@font-face
+{
+	font-family:Eurostile;
+	src:local("Eurostile"), url("/Fonts/EurostileRegular.woff") format('woff');
+}
+
+@font-face
+{
+	font-family:Eurostile;
+	src:local("Eurostile"), url("/Fonts/EurostileBold.woff") format('woff');
+	font-weight:bold;
+}
+
+.titre1
+{
+	color: #8FBE43;
+	text-align:center; 
+	
+}
+
+
+body
+{
+	font-family:Eurostile,sans-serif;
+	font-size:15px;
+}
+
+div.titre 
+{
+	font-weight:bold;
+	font-size:36px;
+	color:#8FBE43;
+	width:300px;
+	text-align:center;
+}
+
+div#cansii, div#monrov
+{
+	height: 285px;
+	width: 286px;
+	text-align:center;
+}
+
+div#prec, div#dist
+{
+	font-size:12px;
+}
+
+.row span
+{
+	font-weight:bold;
+}
+
+#nature
+{
+	width:214px;
+}
+
+input[type="button"]#alerte, input[type="button"]#signal
+{
+	width:40%;
+	float:right;
+	margin:5px 5%;
+}
+
+table 
+{
+	border-collapse:collapse;
+	width:300px;
+	border:1px solid rgb(227, 79, 40);
+	margin:20px 0 10px 0;
+}
+
+th 
+{
+	font-family:"Gill sans MT",sans-serif;
+	font-weight:normal;
+	border:1px solid rgb(243,176,146);
+}
+
+td 
+{
+	text-align:center;
+	width:110px;
+	font-weight:bold;
+	border:1px solid rgb(243,176,146);
+	font-size:20px;
+	padding:5px 0;
+}
+
+footer
+{
+	margin-top:10px;
+}
+
+footer a
+{
+	font-family:Garamond;
+	color:black;
+	text-align:center;
+	text-decoration:none;
+}
+
+footer a, footer input
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+input[type="button"]
+{
+	background:rgb(227, 79, 40);
+	color:white;
+	cursor: pointer;
+}
+
+input[type="button"]:hover
+{
+	background:rgb(243,176,146);
+}
+
+textarea, select, input[type="text"], input[type="button"], input[type="email"], input[type="tel"]
+{
+	padding:7px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #666666;
+}
+
+textarea
+{
+	resize:none;
+}
+
+select, textarea, input[type="email"], input[type="tel"]
+{
+	width:300px;
+}
+
+#heureDep, #minuteDep
+{
+	width:80px;
+}
+
+div#cansii a, div#monrov a
+{
+	font-family:Garamond;
+	color:black;
+	text-align:center;
+}
